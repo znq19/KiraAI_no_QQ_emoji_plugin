@@ -1,8 +1,8 @@
 {
     "enabled": {
-        "name": "启用",
+        "name": "启用拦截",
         "type": "switch",
         "default": true,
-        "hint": "开启后 LLM 将无法发送 QQ emoji（黄豆表情）；表情包(sticker)、戳一戳、@ 等其它能力不受影响。切换即时生效，无需重启"
+        "hint": "开启后 LLM 将无法发送 <emoji>（QQ 黄豆表情）。该标签对 QQ / Telegram / Discord / B站 / QQ官方 等所有声明了 emoji 能力的适配器生效；表情包(sticker)、戳一戳、@ 等其它能力不受影响。切换即时生效，无需重启。"
     }
 }

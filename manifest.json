@@ -1,20 +1,20 @@
 {
     "display_name": "禁止QQ Emoji",
     "plugin_id": "KiraAI_no_QQ_emoji_plugin",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "znq19",
-    "description": "禁止LLM主动发送QQ黄豆emoji表情：仅从每轮输出的标签表中移除<emoji>，不影响机器人发送表情包，也不影响识别用户发来的emoji与贴表情",
+    "description": "移除每轮输出的<emoji>标签以禁止LLM发送QQ黄豆表情；不影响机器人发送表情包，也不影响识别用户发来的emoji与贴表情",
     "core_version": ">=3.0.0",
     "repo": "https://github.com/znq19/KiraAI_no_QQ_emoji_plugin",
     "tags": ["emoji", "prompt"],
     "locales": {
         "zh": {
             "display_name": "禁止QQ Emoji",
-            "description": "禁止LLM主动发送QQ黄豆emoji表情：仅从每轮输出的标签表中移除<emoji>，不影响机器人发送表情包，也不影响识别用户发来的emoji与贴表情"
+            "description": "移除每轮输出的<emoji>标签以禁止LLM发送QQ黄豆表情；不影响机器人发送表情包，也不影响识别用户发来的emoji与贴表情"
         },
         "en": {
             "display_name": "No QQ Emoji",
-            "description": "Stops the LLM from sending QQ face emojis by removing the <emoji> tag from each turn's tag list. Sticker sending and emoji/sticker recognition are unaffected."
+            "description": "Removes the <emoji> tag from each turn's tag list to stop the LLM from sending QQ face emojis. Sticker sending and emoji/sticker recognition are unaffected."
         }
     }
 }
