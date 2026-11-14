@@ -6,6 +6,7 @@
     "description": "移除每轮输出的<emoji>标签以禁止LLM发送QQ黄豆表情；不影响机器人发送表情包，也不影响识别用户发来的emoji与贴表情",
     "core_version": ">=3.0.0",
     "repo": "https://github.com/znq19/KiraAI_no_QQ_emoji_plugin",
+    "icon": "icon.svg",
     "tags": ["emoji", "prompt"],
     "locales": {
         "zh": {
