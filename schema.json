@@ -1,0 +1,8 @@
+{
+    "enabled": {
+        "name": "启用",
+        "type": "switch",
+        "default": true,
+        "hint": "开启后 LLM 将无法发送 QQ emoji（黄豆表情）；表情包(sticker)、戳一戳、@ 等其它能力不受影响。切换即时生效，无需重启"
+    }
+}
